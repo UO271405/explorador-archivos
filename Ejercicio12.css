@@ -1,0 +1,16 @@
+/*Especificidad -> 1*/
+h1{
+    text-transform: uppercase;
+    text-align: left;
+    margin: auto;
+    color: black;
+    
+}
+
+/*Especificidad -> 1*/
+h2,h3{
+    color: black;
+    text-align: left;
+    margin-top: 1em;
+    font: 1.5em, Arial, sans-serif;
+}
