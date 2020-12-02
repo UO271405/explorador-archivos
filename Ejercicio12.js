@@ -1,6 +1,6 @@
 "use strict";
 class FileReader{   
-    leerArchivoTexto=function(files) {
+    leerArchivoTexto(files) {
        var archivo = files[0];
        var nombre = document.getElementById("nombreArchivo");
        var tamaño = document.getElementById("tamañoArchivo");
@@ -27,4 +27,4 @@ class FileReader{
    }
 }
 
-var api = new FileReader();  
+var api = new FileReader();
